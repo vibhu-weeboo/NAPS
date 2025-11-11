@@ -1,4 +1,4 @@
-import { Event, Member } from './types';
+import { Event } from './types';
 
 export const UPCOMING_EVENTS: Event[] = [
   {
@@ -46,32 +46,6 @@ export const RECENT_EVENTS: Event[] = [
     description: "NAPS delegates proudly represented Myanmar at the international symposium, sharing knowledge and building connections.",
     image: "https://picsum.photos/seed/ipsf/600/400"
   },
-];
-
-export const TEAM_MEMBERS: Member[] = [
-  { name: 'Mr Swan Htet Khaing Win', role: 'President', campus: 'Yangon' },
-  { name: 'Ms Hsu Thet Hnin', role: 'President', campus: 'Mandalay' },
-  { name: 'Ms Shwe Yami Thant', role: 'Vice President', campus: 'Yangon' },
-  { name: 'Ms Thet Htet Akari', role: 'Vice President', campus: 'Mandalay' },
-  { name: 'Ms Nay Chi Win Htun', role: 'Contact Person' },
-  { name: 'Theint Honey Kyaw', role: 'Secretary' },
-  { name: 'Ms Shumawa', role: 'Student Exchange Officer', campus: 'Yangon' },
-  { name: 'Ms Nann Sai moon', role: 'Student Exchange Officer', campus: 'Mandalay' },
-  { name: 'Ms Su Wine Pyae', role: 'Multimedia Chairperson', campus: 'Mandalay' },
-  { name: 'Ms Ei Yadanar Thwe', role: 'Public Health Officer', campus: 'Yangon' },
-  { name: 'Ms Nang Phyu Phyu Lwin', role: 'Public Health Officer', campus: 'Mandalay' },
-  { name: 'Ms Swe Mo Mo Htet', role: 'Publication Officer', campus: 'Yangon' },
-  { name: 'Ms Zin Cho', role: 'Publication Officer', campus: 'Mandalay' },
-  { name: 'Ms May Thuzar Win', role: 'Project Development Officer', campus: 'Yangon' },
-  { name: 'Ms Hsu Yati Htay', role: 'Project Development Officer', campus: 'Mandalay' },
-  { name: 'Ms Ei Phyu Sin Oo', role: 'Local Exchange Officer', campus: 'Yangon' },
-  { name: 'Ms Akari soe', role: 'Internal Relationship Officer', campus: 'Mandalay' },
-  { name: 'Ms Myo Malar Htun', role: 'Chairperson of Project', campus: 'Yangon' },
-  { name: 'Ms Swe Swe Sint', role: 'Chairperson of Project', campus: 'Mandalay' },
-  { name: 'Ms Hnin Thiri Zaw', role: 'Education Officer', campus: 'Mandalay' },
-  { name: 'Ms Nu Ei Khaing', role: 'Administrative Officer', campus: 'Mandalay' },
-  { name: 'Ms Htwe Htwe Kham', role: 'Chief Finance Officer', campus: 'Yangon' },
-  { name: 'Ms Lynn Let Pyae Oo', role: 'Chief Finance Officer', campus: 'Mandalay' },
 ];
 
 export const VISIONS: string[] = [
