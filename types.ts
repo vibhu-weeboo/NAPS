@@ -7,8 +7,3 @@ export interface Event {
   image: string;
 }
 
-export interface Member {
-  name: string;
-  role: string;
-  campus?: 'Yangon' | 'Mandalay';
-}
