@@ -1,7 +1,6 @@
 import React from 'react';
-import { VISIONS, MISSIONS, OBJECTIVES, TEAM_MEMBERS } from '../constants';
+import { VISIONS, MISSIONS, OBJECTIVES } from '../constants';
 import BackButton from '../components/BackButton';
-import MemberCard from '../components/MemberCard';
 
 const ListItem: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <li className="flex items-start space-x-3">
@@ -37,22 +36,13 @@ const AboutPage: React.FC = () => {
           </p>
         </div>
 
-        {/* Members Section */}
         <div className="py-12">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-4">Meet Our Executive Committee</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-4">Our Principles</h2>
             <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-              The driving force behind NAPS, our dedicated team of student leaders works tirelessly to create opportunities and support for pharmacy students across the nation.
+              Our vision, mission, and objectives guide us in our commitment to fostering a supportive and enriching environment for all pharmacy students in Myanmar.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {TEAM_MEMBERS.map((member, index) => (
-              <MemberCard key={index} name={member.name} role={member.role} campus={member.campus} />
-            ))}
-          </div>
-        </div>
-
-        <div className="py-12">
           <div className="space-y-12">
             <SectionCard title="Our Vision" items={VISIONS} />
             <SectionCard title="Our Mission" items={MISSIONS} />
