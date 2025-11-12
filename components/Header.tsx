@@ -41,7 +41,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <header className="bg-gray-900/80 backdrop-blur-lg border-b border-gray-700 sticky top-0 z-50">
+      <header className="bg-gray-900/70 backdrop-blur-xl border-b border-gray-700/50 fixed top-0 left-0 right-0 z-50 shadow-[0_4px_30px_rgba(15,107,107,0.2)]">
         <nav className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <span className="text-2xl font-bold text-naps-green">NAPS 💚</span>
