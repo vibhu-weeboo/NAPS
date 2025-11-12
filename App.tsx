@@ -13,7 +13,7 @@ const App: React.FC = () => {
     <HashRouter>
       <div className="bg-gradient-to-br from-gray-900 via-emerald-950 to-gray-900 text-gray-300 flex flex-col min-h-screen font-sans">
         <Header />
-        <main className="flex-grow">
+        <main className="flex-grow pt-20 md:pt-24">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
