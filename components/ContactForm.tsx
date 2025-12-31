@@ -47,7 +47,7 @@ const ContactForm: React.FC = () => {
             onChange={handleChange}
             required
             className="w-full px-4 py-2 bg-gray-900/50 border border-gray-600 rounded-md text-gray-200 focus:ring-naps-green focus:border-naps-green transition"
-            placeholder="John Doe"
+            placeholder="Your Name"
           />
         </div>
         <div>
